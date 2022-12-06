@@ -46,11 +46,17 @@ a[href^="#"] {
   background-color: orangered;
 } */
 
-#cast span {
+/* #cast span {
   color: grey;
 }
 
 ol > li {
   border: 1px solid red;
-  /* color: red; */
+} */
+
+/* h2 ~ p {
+  color: deeppink;
+} */
+h2 + p {
+  color: deeppink;
 }
