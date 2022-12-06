@@ -61,6 +61,38 @@ ol > li {
   color: deeppink;
 } */
 
-h2.score {
+/* h2.score {
   color: blueviolet;
+} */
+
+.score:hover {
+  color: orange;
+}
+
+input:placeholder-shown {
+  background-color: red;
+}
+
+a:visited {
+  color: olive;
+}
+
+/* li:last-of-type {
+  border: 1px solid magenta;
+} */
+
+li:nth-of-type(2n) {
+  border: 1px solid magenta;
+}
+
+button:active {
+  background-color: pink;
+}
+
+input:focus {
+  border: 5px solid green;
+}
+
+body :not(h1, h2, h3, h4, h5, h6) {
+  border: 1px solid yellowgreen;
 }
