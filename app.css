@@ -6,8 +6,16 @@
 body {
   font-family: Merriweather, serif;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Work Sans", sans-serif;
+}
 
-p {
+/* p {
   color: purple;
 }
 
@@ -31,18 +39,18 @@ a[href^="#"] {
   color: darkviolet;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Work Sans", sans-serif;
-}
-
 .score,
 #featured,
 .tag {
   color: white;
   background-color: orangered;
+} */
+
+#cast span {
+  color: grey;
+}
+
+ol > li {
+  border: 1px solid red;
+  /* color: red; */
 }
