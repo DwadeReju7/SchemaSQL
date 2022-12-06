@@ -14,3 +14,15 @@ p {
 #featured {
   color: gold;
 }
+
+input[type="number"] {
+  background-color: gold;
+}
+
+a[href*="wiki"] {
+  color: cyan;
+}
+
+a[href^="#"] {
+  color: darkviolet;
+}
