@@ -57,6 +57,10 @@ ol > li {
 /* h2 ~ p {
   color: deeppink;
 } */
-h2 + p {
+/* h2 + p {
   color: deeppink;
+} */
+
+h2.score {
+  color: blueviolet;
 }
