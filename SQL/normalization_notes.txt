@@ -1,0 +1,11 @@
+- The original unnormalized design had multiple of the same categories on the same line or id. 
+This would be hard to query because each book was fiction and adding or removing additional categories
+could be a little messy. 
+
+- To go from UNF to 1NF we removed "book_categories" to its own chart to ensure each row is unique. 
+To go from 1NF to 2NF we must remove all partial dependencies and replace category name in book categories with category id.
+To go from 2NF to 3NF you have to ensure that non-key attributes don't depend on other non-key attributes.
+
+- Relational databases don't allow you to store multiple foreign keys in a single column. Join tables
+hold those foreign keys. 
+
